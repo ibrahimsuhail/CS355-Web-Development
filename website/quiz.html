@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quiz</title>
+	<script src="quizscript.js"></script>
+	<link rel="stylesheet" type="text/css" href="Style2.css">
+	
+	<!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+	
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+
+	<!-- Popper.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+
+	<!-- Bootstrap JavaScript -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="quizsect">
+		<ul class="quiz">
+			<li>
+				<h4>1) How many letters are there in "JS"?</h4>
+				<ul class="choices">
+					<li><label><input type="radio" name="question0" value="A"><span>1</span></label></li>
+					<li><label><input type="radio" name="question0" value="B"><span>2</span></label></li>
+					<li><label><input type="radio" name="question0" value="C"><span>3</span></label></li>
+					<li><label><input type="radio" name="question0" value="D"><span>4</span></label></li>
+				</ul>
+			</li>
+			<li>
+				<h4>2) How many letters are there in "BMX"?</h4>
+				<ul class="choices">
+					<li><label><input type="radio" name="question1" value="A"><span>1</span></label></li>
+					<li><label><input type="radio" name="question1" value="B"><span>2</span></label></li>
+					<li><label><input type="radio" name="question1" value="C"><span>3</span></label></li>
+					<li><label><input type="radio" name="question1" value="D"><span>4</span></label></li>
+				</ul>
+			</li>
+			<li>
+				<h4>3) How many letters are there in "A"?</h4>
+				<ul class="choices">
+					<li><label><input type="radio" name="question2" value="A"><span>1</span></label></li>
+					<li><label><input type="radio" name="question2" value="B"><span>2</span></label></li>
+					<li><label><input type="radio" name="question2" value="C"><span>3</span></label></li>
+					<li><label><input type="radio" name="question2" value="D"><span>4</span></label></li>
+				</ul>
+				<h4>4) Whats my nickname?</h4>
+				<ul class="choices">
+					<li><input class = "shortanswer" type="text" name="sa0" id="ta1" ></li>
+					<!-- <input type = "submit" value = "submit" /> -->
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<button class="view-results" onclick="returnTotalScore()">Submit</button>
+	<span id="myresults" class="my-results">Your Score</span>
+</body>
+
+</html>
