@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>brainblast.com</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <!-- Popper.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!--
+  <link rel="stylesheet" type="text/css" href="style.css">
+-->
+
+  </script>
+  <style>
+    img {
+      height: 30%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .navbar-font {
+      color: gainsboro;
+    }
+
+    .lcol {
+      border-style: solid;
+      border-top: 0px;
+      border-bottom: 0px;
+      border-left: 0px;
+      height: 100vh;
+    }
+
+    .rcol {
+      border-style: solid;
+      border-top: 0px;
+      border-bottom: 0px;
+      border-right: 0px;
+      height: 100vh;
+    }
+
+
+    .dropdown-menu {
+      background-color: cadetblue;
+    }
+
+    p,
+    div {
+      color: gainsboro;
+      border-color: rgba(105, 105, 105, 0.26);
+    }
+
+    h4 {
+      color: black;
+    }
+
+    html,
+    body {
+      background-color: cadetblue;
+    }
+
+    .btn-space {
+      margin-right: 5px;
+    }
+    .lead, h3{
+      font-family:serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <script>
+    $().ready(function () {
+      // fill in
+    })
+  </script>
+  <!-- NAVBAR BEGINS HERE-->
+  <nav class="navbar navbar-expand-sm bg-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html">brainblast</a>
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle navbar-font" href="#" id="navbarNavDropdown" data-toggle="dropdown">
+          Course
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="https://www.zybooks.com/" target="_blank">Zybooks</a>
+          <a class="dropdown-item" href="https://tophat.com/" target="_blank">TopHat</a>
+          <a class="dropdown-item" href="https://drive.google.com/open?id=1co7vzY9_75cCiuNTHXCGf3pKbpf_TTwC"
+            target="_blank">Course Google Drive</a>
+          <a class="dropdown-item" href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+          <a class="dropdown-item" href="https://bbhosted.cuny.edu/" target="_blank">Blackboard</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle navbar-font" href="#" id="navbarNavDropdown" data-toggle="dropdown">
+          About
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="about.html">About The Developers</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle navbar-font" href="#" id="navbarNavDropdown" data-toggle="dropdown">
+          Contact
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="mailto:adil.khan42@qmail.cuny.edu">Adil Khan</a>
+          <a class="dropdown-item" href="mailto:ibrahimsuhail23@gmail.com">Ibrahim Suhail</a>
+          <a class="dropdown-item" href="mailto:sumeet.parmar30@qmail.cuny.edu">Sumeet Parmar</a>
+          <a class="dropdown-item" href="mailto:Mohamed.Sultan05@qmail.cuny.edu">Mohamed Sultan</a>
+        </div>
+      </li>
+
+    </ul>
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item">
+        <button type="button" class="btn btn-space btn-info" onclick="window.location.href = 'login.php'">Log
+          in</button>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-info" onclick="window.location.href= 'getstarted.html'">Get
+          Started</button>
+      </li>
+    </ul>
+  </nav>
+  <!--NAVBAR ENDS HERE-->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 lcol">
+        <h4 class="text-center">Pricing</h4>
+        <p>
+          <h3 class="bg-success"> One Semester Access: $25 </h3>
+          <br>
+          <h3 class="bg-secondary"> One Year Access:  $50 </h3>
+          <br>
+          <h3 class="bg-primary"> Four Year Access: $150 </h3>
+        </p>
+      </div>
+      <div class="col-md-8 mcol">
+
+        <h4 class="text-center">Welcome To BrainBlast</h4>
+        <h5 class="text-center lead ">
+          Here at BrainBlast, we care about education. The world has advanced so
+          much,
+          yet our teaching methods
+          are exactly the same as they were back in the 1800s. That needs to change, and that is exactly what we had in
+          mind when we created this platform. <br> <label class = "text-primary">To modernize teaching to more than just the classroom.</label>
+        </h5>
+        <img src="https://www.kindpng.com/picc/b/722/7228917.png" alt="girllearning">
+        <br>
+        <h6 class="text-center lead ">
+          Track student learning with formative and summative assessments
+          <br>
+          Assess student progress and speed up grading with auto-grading technologies.
+        </h6>
+        <img src="seestudentscore.png" class = "img-thumbnail"alt="seestudentscore">
+        <br>
+        <h6 class="text-center lead ">
+          Create homework assignments and in-class activities using multiple-choice and short answer questions.
+        </h6>
+        <img src="reviewsets.png" class = "img-thumbnail rounded "alt="seereviewsets">
+        
+        
+      
+        <br>
+        <br>
+      </div>
+      <div class="col-md-2 rcol">
+
+        <h4 class="text-center ">Reviews</h4>
+        <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+
+        <p class="lead">"Great service! My kids are enjoying learning so much more" -Dave
+        </p>
+        <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+
+
+        <p class="lead">"Makes teaching a lot easier" -Mary
+        </p>
+        <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <p class="lead">"Helped me learn how to code in HTML. Now I can create my own websites" -Isaac
+        </p>
+        <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <p class="lead">"Can't believe such a service is priced so low"-Eric
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

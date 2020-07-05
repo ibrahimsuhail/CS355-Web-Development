@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--
+  <link rel="stylesheet" type="text/css" href="style.css">
+-->
+
+    </script>
+    <style>
+        .navbar-font {
+            color: gainsboro;
+        }
+
+        .lcol {
+            border-style: solid;
+            border-top: 0px;
+            border-bottom: 0px;
+            border-left: 0px;
+            height: 100vh;
+        }
+
+        .rcol {
+            border-style: solid;
+            border-top: 0px;
+            border-bottom: 0px;
+            border-right: 0px;
+            height: 100vh;
+        }
+
+
+        .dropdown-menu {
+            background-color: cadetblue;
+        }
+
+        p,
+        div {
+            color: gainsboro;
+            border-color: rgba(105, 105, 105, 0.26);
+        }
+
+        h4 {
+            color: black;
+        }
+
+        html,
+        body {
+            background-color: cadetblue;
+        }
+
+        .btn-space {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        $().ready(function () {
+            // fill in
+        })
+    </script>
+    <!-- NAVBAR BEGINS HERE-->
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">brainblast</a>
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navbar-font" href="#" id="navbarNavDropdown" data-toggle="dropdown">
+                    Course
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="https://www.zybooks.com/" target="_blank">Zybooks</a>
+                    <a class="dropdown-item" href="https://tophat.com/" target="_blank">TopHat</a>
+                    <a class="dropdown-item" href="https://drive.google.com/open?id=1co7vzY9_75cCiuNTHXCGf3pKbpf_TTwC"
+                        target="_blank">Course Google Drive</a>
+                    <a class="dropdown-item" href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+                    <a class="dropdown-item" href="https://bbhosted.cuny.edu/" target="_blank">Blackboard</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navbar-font" href="#" id="navbarNavDropdown" data-toggle="dropdown">
+                    About
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="about.html">About The Developers</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navbar-font" href="#" id="navbarNavDropdown" data-toggle="dropdown">
+                    Contact
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="mailto:adil.khan42@qmail.cuny.edu">Adil Khan</a>
+                    <a class="dropdown-item" href="mailto:ibrahimsuhail23@gmail.com">Ibrahim Suhail</a>
+                    <a class="dropdown-item" href="mailto:sumeet.parmar30@qmail.cuny.edu">Sumeet Parmar</a>
+                    <a class="dropdown-item" href="mailto:Mohamed.Sultan05@qmail.cuny.edu">Mohamed Sultan</a>
+                </div>
+            </li>
+
+        </ul>
+        <!--
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item">
+        <button type="button" class="btn btn-space btn-info" onclick= "window.location.href = 'login.php'">Log in</button>
+      </li>
+      <li class="nav-item">
+     <button type="button" class="btn btn-info" onclick= "window.location.href= 'getstarted.html'">Get Started</button> 
+      </li>
+    </ul>
+    -->
+    </nav>
+    <!--NAVBAR ENDS HERE-->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 lcol">
+                <h4 class="text-center"></h4>
+                <p>
+                </p>
+            </div>
+            <div class="col-md-8">
+                <h4 class="text-center"><u>Get Started as a Teacher</u></h4>
+                <!-- insert teacher video-->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="gsteacher.mp4" allowfullscreen>
+                    </iframe>
+                </div>
+                <h4 class="text-center"><u>Get Started as a Student</u></h4>
+
+                <!-- insert student video-->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="gsstudent.mp4" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="col-md-2 rcol">
+                <h4 class="text-center"></h4>
+                <p class="text-center">
+                    <button type="button" class="btn btn-space btn-dark text-center"
+                        onclick="window.location.href = 'register.php'">I'm Ready to Reqister</button>
+                </p>
+                <h4 class="text-center text-danger">
+                    Some Things to Note:
+                </h4>
+                <ol>
+                    <li class="text-left">
+                        
+                        There is a critical bug when you register an account as let's say a teacher, then log out
+                        and register a new student account and log in to that account.
+                        <br>
+                        If you now try to log in the teacher account,
+                        it'll treat you as a student.<br>
+                        So you must now create a new teacher account.<br>
+                        This behavior happens Vice Versa.
+                    </li>
+                    <li class="text-left">
+                        If you are a teacher and add a word-answer type question to a question set,
+                        it will always appear at the bottom for the student, but this won't mess up
+                        the score calculation.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
